@@ -4,11 +4,15 @@ import time
 banner = """
 ##############################################################
 #                      VT Hash Checker                       #
+#------------------------------------------------------------#
+#                Developed by Marton Andrei	                 #
+#                                                            #
+#                                                            #
 ##############################################################
 # This script reads hashes from a file and checks each hash  #
 # with VirusTotal's API. The results are categorized into    #
 # 'malicious.txt' and 'non-malicious.txt' based on the       #
-# analysis results.                                           #
+# analysis results.                                          #
 #                                                            #
 # - Malicious, Suspicious, and Undetected counts are         #
 #   displayed for each hash.                                 #
@@ -20,7 +24,7 @@ banner = """
 """
 print(banner)
 
-API_KEY = "ENTER-YOUR-API-KEY-HERE"
+API_KEY = "INSERT-HERE-YOUR-API-KEY"
 API_URL = "https://www.virustotal.com/api/v3/files/{}"
 
 headers = {
@@ -86,7 +90,7 @@ def main():
             else:
                 non_malicious_file.write(f"{file_hash}\n")
             
-            # Sleep to avoid hitting API rate limits (15 sec recommended)
+            # Sleep to avoid hitting API rate limits
             time.sleep(15)
 
 if __name__ == "__main__":
