@@ -3,8 +3,12 @@ import time
 
 banner = """
 ###########################################################################
-#                    VirusTotal Domain Checker Script                    #
+#                    VirusTotal Domain Checker Script                     #
 ###########################################################################
+#-------------------------------------------------------------------------#
+#                       Developed by Marton Andrei	                      #
+#                                                                         #
+#-------------------------------------------------------------------------#
 #                                                                         #
 # This script automatically checks domains against VirusTotal's API and   #
 # categorizes them into 'malicious.txt' and 'non-malicious.txt' based on  #
@@ -36,7 +40,7 @@ banner = """
 print(banner)
 
 
-API_KEY = "INSERT-YOUR-API-KEY-HERE"
+API_KEY = "INSERT-HERE-YOUR-API-KEY"
 API_URL = "https://www.virustotal.com/api/v3/domains/{}"
 
 headers = {
@@ -91,7 +95,7 @@ def main():
             else:
                 non_malicious_file.write(f"{domain}\n")
             
-            time.sleep(5)
+            time.sleep(15)
 
 if __name__ == "__main__":
     main()
