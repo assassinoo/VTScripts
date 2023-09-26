@@ -1,6 +1,6 @@
 # VT Hash Checker (API v3)
 
-VT Hash Checker is a cutting-edge tool designed to automate the task of verifying large lists of hash values through VirusTotal’s advanced API v3. It serves as a valuable resource for security analysts and IT administrators seeking to filter out malicious hashes from extensive lists.
+VT Hash Checker is a tool designed to automate the task of verifying large lists of hash values through VirusTotal’s advanced API v3. It serves as a valuable resource for security analysts and IT administrators seeking to filter out malicious hashes from extensive lists.
 
 🌟 Highlights:
 
