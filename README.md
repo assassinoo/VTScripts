@@ -1,3 +1,29 @@
+# VT Ultimate IoC Checker (API v3)
+
+VT Ultimate IoC Checker is a groundbreaking tool engineered to automate the analysis of a myriad of Indicators of Compromise (IoCs) using VirusTotal’s state-of-the-art API v3. This tool becomes a vital asset for cybersecurity aficionados, IT specialists, and network analysts who wish to identify malicious entities from extensive IoC lists promptly and efficiently.
+
+🌟 Highlights:
+
+    Multifaceted Analysis: Utilizes VirusTotal's sophisticated API v3, facilitating analysis on IPs, Domains, and File Hashes, offering versatile applications.
+    Automated Inspection: Performs automatic and uninterrupted scanning of IoCs against VirusTotal's extensive database.
+    In-Depth Reporting: Delivers comprehensive and coherent reports, providing detailed analysis results and severity levels of the identified IoCs.
+    Intuitive Design: Flaunts a user-friendly design complemented with clear instructions, promising a seamless experience for users with varying levels of expertise.
+    Rate Limit Adherence: Incorporates dynamic waiting intervals to abide by the API rate limits imposed by VirusTotal.
+
+💻 How to Use:
+
+    Integrate API Key: Insert your VirusTotal API key within the script.
+    Prepare IoC List: Guide the script to your list of IoCs that are in need of analysis.
+    Review Output Files: The script automatically generates ‘malicious.txt’ and ‘non-malicious.txt’ files. Simply review these files to observe the categorized and recorded analysis data.
+
+💡 Note:
+VT Ultimate IoC Checker distinguishes itself in a field saturated with scripts that are predominantly anchored to the outdated API v2. This elevates it as a distinct and essential tool for those seeking to exploit the advanced features of API v3.
+
+📥 Download & Contribute:
+We cordially invite you to download, explore, and participate in the continuous improvement of VT Ultimate IoC Checker. Let’s synergize our knowledge to advance IoC analysis and strengthen our cyber fortifications!
+
+
+
 # VT Hash Checker (API v3)
 
 VT Hash Checker is a tool designed to automate the task of verifying large lists of hash values through VirusTotal’s advanced API v3. It serves as a valuable resource for security analysts and IT administrators seeking to filter out malicious hashes from extensive lists.
